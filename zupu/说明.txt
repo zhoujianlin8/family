@@ -1,0 +1,8 @@
+请打开welcome.php 作为主页 
+本机为localhost 密码为111111 
+链接数据库的文件是connect。php
+
+
+
+删除不能同时删除多个请修改  正如不能同时添加多个孩子
+使用ajax后submi无法调用  也就是无法进行两次ajax请修改

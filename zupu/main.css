@@ -1,0 +1,88 @@
+body {
+    border: 1px solid #CCCCCC;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 1000px;
+}
+#menu {
+    border-bottom: 1px solid #CCCCCC;
+    height: 50px;
+    text-align: center;
+    width: 1000px;
+	background-color:#CCCCFF;
+}
+#menu li {
+    color: #6699CC;
+    float: left;
+    list-style: none outside none;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+	font-size:1.2em;
+	font-weight:bold;
+	
+}
+#menu li:hover{
+color:#CC0066;}
+#from {
+    background: none repeat scroll 0 0 #FFFF99;
+    clear: both;
+    padding: 100px;
+}
+#td span {
+    height: 40px;
+    width: 200px;
+}
+#td label {
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+}
+#td {
+    height: 80px;
+    text-align: center;
+    width: 300px;
+   
+}
+#error {
+    height: 20px;
+}
+#button {
+    height: 50px;
+}
+#button li {
+    float: left;
+    list-style: none outside none;
+    text-align: center;
+    width: 150px;
+}
+#button li a {
+    text-decoration: none;
+}
+#th {
+    background-color: red;
+    border-bottom: 1px solid;
+    font-size: 2em;
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+}
+#td p {
+}
+#table {
+    background-color: #B7B7B7;
+    border: 2px solid #663300;
+    height: 200px;
+    margin: auto;
+    width: 300px;
+}
+#footer {
+    border-top: 1px solid #CCCCCC;
+    font-family: "新宋体";
+    font-size: 2em;
+    height: 50px;
+    text-align: center;
+}

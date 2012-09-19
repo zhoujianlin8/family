@@ -1,0 +1,123 @@
+-- phpMyAdmin SQL Dump
+-- version 2.10.2
+-- http://www.phpmyadmin.net
+-- 
+-- 主机: localhost
+-- 生成日期: 2012 年 05 月 19 日 15:49
+-- 服务器版本: 5.0.45
+-- PHP 版本: 5.2.3
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+-- 
+-- 数据库: `zhupu`
+-- 
+
+-- --------------------------------------------------------
+
+-- 
+-- 表的结构 `father`
+-- 
+
+CREATE TABLE `father` (
+  `f_id` int(6) NOT NULL auto_increment,
+  `f_name` text NOT NULL,
+  `f_child` text NOT NULL,
+  PRIMARY KEY  (`f_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=27 ;
+
+-- 
+-- 导出表中的数据 `father`
+-- 
+
+INSERT INTO `father` VALUES (1, '?‘¨?°??ˉ?', '?‘¨??o??—');
+INSERT INTO `father` VALUES (2, '?‘¨?°??ˉ?', '?‘¨??o??—');
+INSERT INTO `father` VALUES (3, '?‘¨?°??ˉ?', '?‘¨??·??·');
+INSERT INTO `father` VALUES (4, '?‘¨?°??ˉ?', '?‘¨??·??·');
+INSERT INTO `father` VALUES (5, '?‘¨?°??ˉ?', '?‘¨??·??·');
+INSERT INTO `father` VALUES (6, '?‘¨?°??ˉ?', '?‘¨???');
+INSERT INTO `father` VALUES (8, '?‘¨?°??ˉ?', '?‘¨???');
+INSERT INTO `father` VALUES (9, '?‘¨?°??ˉ?', '?‘¨???');
+INSERT INTO `father` VALUES (10, '?‘¨?°??ˉ?', '?‘¨???');
+INSERT INTO `father` VALUES (11, '?‘¨?°??ˉ?', '?‘¨??o??—');
+INSERT INTO `father` VALUES (12, '?‘¨?°??ˉ?', '?‘¨??o??—');
+INSERT INTO `father` VALUES (13, '?‘¨?°??ˉ?', '?‘¨??·??·');
+INSERT INTO `father` VALUES (21, '', '');
+INSERT INTO `father` VALUES (22, '', '');
+INSERT INTO `father` VALUES (23, '', '');
+
+-- --------------------------------------------------------
+
+-- 
+-- 表的结构 `huzhu`
+-- 
+
+CREATE TABLE `huzhu` (
+  `id` int(6) NOT NULL auto_increment,
+  `h_name` varchar(6) NOT NULL,
+  `statue_name` varchar(6) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
+
+-- 
+-- 导出表中的数据 `huzhu`
+-- 
+
+INSERT INTO `huzhu` VALUES (1, '', '');
+INSERT INTO `huzhu` VALUES (2, '周建林', '1');
+INSERT INTO `huzhu` VALUES (3, '', '1');
+INSERT INTO `huzhu` VALUES (4, '', '1');
+INSERT INTO `huzhu` VALUES (5, '', '1');
+INSERT INTO `huzhu` VALUES (6, '', '1');
+INSERT INTO `huzhu` VALUES (7, '', '1');
+INSERT INTO `huzhu` VALUES (8, '', '1');
+
+-- --------------------------------------------------------
+
+-- 
+-- 表的结构 `statue`
+-- 
+
+CREATE TABLE `statue` (
+  `id` int(6) NOT NULL auto_increment,
+  `statue_name` varchar(6) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+
+-- 
+-- 导出表中的数据 `statue`
+-- 
+
+INSERT INTO `statue` VALUES (1, '户主');
+INSERT INTO `statue` VALUES (2, '妻子');
+INSERT INTO `statue` VALUES (3, '儿子');
+INSERT INTO `statue` VALUES (4, '女儿');
+INSERT INTO `statue` VALUES (5, '父亲');
+INSERT INTO `statue` VALUES (6, '母亲');
+
+-- --------------------------------------------------------
+
+-- 
+-- 表的结构 `user`
+-- 
+
+CREATE TABLE `user` (
+  `id` int(6) NOT NULL auto_increment,
+  `username` varchar(6) NOT NULL,
+  `password` varchar(6) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
+
+-- 
+-- 导出表中的数据 `user`
+-- 
+
+INSERT INTO `user` VALUES (1, 'demo', 'demo');
+INSERT INTO `user` VALUES (2, 'admin', 'admin');
+INSERT INTO `user` VALUES (3, 'root', '111111');
+INSERT INTO `user` VALUES (4, 'admin', 'admin');
+INSERT INTO `user` VALUES (5, 'admin', 'admin');
+INSERT INTO `user` VALUES (6, 'admin', 'admin');
+INSERT INTO `user` VALUES (7, 'zhou', '111111');
+INSERT INTO `user` VALUES (8, 'root', '111111');
+INSERT INTO `user` VALUES (9, '?‘¨', '111111');
